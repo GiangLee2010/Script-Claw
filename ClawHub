@@ -1,0 +1,51 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create("Claw")
+
+
+--Tabs--
+
+
+local tab1 = window:CreateTab("AdminCommand")
+
+
+--buttons--
+
+
+tab1:CreateButton("Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+print("Claw X Will Released Soon")
+end)
+
+
+tab1:CreateButton("Redz Brookhaven", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+print("Claw X Will Released Soon")
+end)
+
+
+tab1:CreateButton("JuiHub Brookhaven", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+print("Claw X Will Released Soon")
+end)
+
+
+tab1:CreateButton("Sander Brookhaven", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
+print("Claw X Will Released Soon")
+end)
+
+
+tab1:CreateTextbox("Change Speeds", function(a)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+print(a)
+end)
+
+
+tab1:CreateTextbox("Change Speeds", function(a)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
+print(a)
+end)
+
+--WARNING--
+
+tab1:CreateWarning("Vợ Chồng Nhà Minh Dùng Vui Vẻ👑👑:))")
